@@ -21,7 +21,7 @@ contract Voting is Ownable, AccessControl {
     }
 
     struct Proposal {
-        string description; // maybe change to bytes32 (limit length)
+        string description;
         uint256 voteCount;
     }
 
