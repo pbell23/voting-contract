@@ -16,8 +16,17 @@ Everyone will then be able to call the `getWinner` function and retrieve the win
 
 ## Tests
 
-In progress ...
-Should be good by tonight (28/06/2022)
+To run tests, first install packages :
+
+```console
+$ npm install
+```
+
+Then, run tests using truffle :
+
+```console
+$ truffle test test/voting.test.js --network development
+```
 
 ## Notes
 
